@@ -8,8 +8,11 @@ First, clone the repository.
 
 Then run the following commands at the root of your project :
 
-``` javac -d bin/ -cp src @filenames.txt
+``` 
+> javac -d bin/ -cp src @filenames.txt
 
-``` cd bin/
+> cd bin/
 
-``` java -cp . model.Main
+> java -cp . model.Main
+
+``` 
