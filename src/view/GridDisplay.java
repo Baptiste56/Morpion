@@ -16,8 +16,8 @@ public class GridDisplay implements Observer, ActionListener{
 	private Game game;
 	private GridController gridController = null;
 	private Player playerTurn;
-	private ImageIcon cross = new ImageIcon("cross.png");
-	private ImageIcon circle = new ImageIcon("circle.jpg");
+	private ImageIcon cross = new ImageIcon("../image/cross.png");
+	private ImageIcon circle = new ImageIcon("../image/circle.jpg");
 	
 	private JButton square11 = new JButton("");
 	private JButton square12 = new JButton("");
